@@ -1,0 +1,47 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(20px); /* Apply the blur effect */
+    z-index: 20;
+    border-radius: 1rem; /* Rounded edges */
+    margin-top: 1rem; /* Add margin to the top */
+    /* margin: 0.5rem 4rem;  */
+}
+
+.header nav {
+    height: 3.5rem; /* 14 units in height */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem; /* Reduced padding */
+    padding-right: 1rem; /* Reduced padding */
+}
+
+.logo-container {
+    display: none;
+}
+
+.logo-container-lg {
+    display: block;
+    width: 240px;
+}
+
+.dark-invert {
+    filter: invert(1);
+}
+
+.mode-toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Responsive Design for large screens */
+@media (min-width: 1024px) {
+    .logo-container {
+        display: block;
+    }
+}
