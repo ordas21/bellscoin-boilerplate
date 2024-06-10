@@ -1,6 +1,7 @@
 {
   "name": "bellscoin-boilerplate",
   "author": "@ordas21",
+  "buy-me-a-coffee": "BGN4WSdZ68YabLMNkcYXxiatVBR1Gk6b1W",
   "version": "0.1.0",
   "private": true,
   "scripts": {
